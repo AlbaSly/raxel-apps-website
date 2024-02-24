@@ -1,0 +1,791 @@
+[
+  {
+    "id": 1,
+    "name": "Netflix",
+    "categories": [
+      {
+        "name": "Netflix 1 Mes",
+        "accounts": [
+          {
+            "name": "Plan Premium HD",
+            "devices": 1,
+            "details": "Idioma del perfil aleatorio (únicamente modificable dentro de la película o serie!).",
+            "price": 50.00,
+            "available": true
+          },
+          {
+            "name": "Plan Premium UHD 4K",
+            "devices": 1,
+            "details": "Idioma del perfil en español. Perfecto para pantallas grandes.",
+            "price": 70.00,
+            "available": true
+          },
+          {
+            "name": "Plan Premium UHD 4K",
+            "devices": 4,
+            "details": "Idiomas de los perfiles aleatorios (únicamente modificables dentro de la película o serie!).",
+            "price": 155.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Netflix 3 Meses",
+        "accounts": [
+          {
+            "name": "Plan Premium HD",
+            "devices": 1,
+            "details": "Idioma del perfil aleatorio (únicamente modificable dentro de la película o serie!).",
+            "price": 125.00,
+            "available": true
+          },
+          {
+            "name": "Plan Premium UHD 4K",
+            "devices": 1,
+            "details": "Idioma del perfil en español. Perfecto para pantallas grandes.",
+            "price": 165.00,
+            "available": true
+          },
+          {
+            "name": "Plan Premium UHD 4K",
+            "devices": 4,
+            "details": "Idiomas de los perfiles aleatorios (únicamente modificables dentro de la película o serie!).",
+            "price": 220.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Netflix 6 Meses",
+        "accounts": [
+          {
+            "name": "Plan Premium HD",
+            "devices": 1,
+            "details": "Idioma del perfil aleatorio (únicamente modificable dentro de la película o serie!).",
+            "price": 225.00,
+            "available": true
+          },
+          {
+            "name": "Plan Premium UHD 4K",
+            "devices": 1,
+            "details": "Idioma del perfil en español. Perfecto para pantallas grandes.",
+            "price": 285.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Netflix 12 Meses",
+        "accounts": [
+          {
+            "name": "Plan Premium UHD 4K",
+            "devices": 1,
+            "details": "Idioma del perfil en español. Perfecto para pantallas grandes.",
+            "price": 495.00,
+            "available": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Prime Video",
+    "categories": [
+      {
+        "name": "Prime Video 1 Mes",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": 1,
+            "details": null,
+            "price": 40.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Prime Video 3 Meses",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": 1,
+            "details": null,
+            "price": 90.00,
+            "available": true
+          },
+          {
+            "name": "Plan Premium Cuenta Completa",
+            "devices": 6,
+            "details": "Se pueden tener hasta 6 perfiles.",
+            "price": 180,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Prime Video 6 Meses",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": 1,
+            "details": null,
+            "price": 160.00,
+            "available": true
+          },
+          {
+            "name": "Plan Premium Cuenta Completa",
+            "devices": 6,
+            "details": "Se pueden tener hasta 6 perfiles.",
+            "price": 295.00,
+            "available": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Disney +",
+    "categories": [
+      {
+        "name": "Disney 1 Mes",
+        "accounts": [
+          {
+            "name": "Plan Plus",
+            "devices": 1,
+            "details": null,
+            "price": 50.00,
+            "available": true
+          },
+          {
+            "name": "Plan Plus: Disney + Star",
+            "devices": 1,
+            "details": null,
+            "price": 65.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Disney 2 Meses",
+        "accounts": [
+          {
+            "name": "Plan Plus: Disney + Star",
+            "devices": 1,
+            "details": null,
+            "price": 80.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Disney 6 Meses",
+        "accounts": [
+          {
+            "name": "Plan Plus",
+            "devices": 1,
+            "details": null,
+            "price": 180.00,
+            "available": true
+          },
+          {
+            "name": "Plan Plus: Disney + Star",
+            "devices": 1,
+            "details": null,
+            "price": 200.00,
+            "available": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "HBO Max",
+    "categories": [
+      {
+        "name": "HBO Max 1 Mes",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": 1,
+            "details": null,
+            "price": 50.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "HBO Max 3 Meses",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": 1,
+            "details": null,
+            "price": 125.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "HBO Max 6 Meses",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": 1,
+            "details": null,
+            "price": 200.00,
+            "available": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Vix",
+    "categories": [
+      {
+        "name": "Vix 1 Mes",
+        "accounts": [
+          {
+            "name": "Plan Plus",
+            "devices": 1,
+            "details": null,
+            "price": 45.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Vix 3 Meses",
+        "accounts": [
+          {
+            "name": "Plan Plus",
+            "devices": 1,
+            "details": null,
+            "price": 100.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Vix 6 Meses",
+        "accounts": [
+          {
+            "name": "Plan Plus",
+            "devices": 1,
+            "details": null,
+            "price": 200.00,
+            "available": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Star +",
+    "categories": [
+      {
+        "name": "Star 1 Mes",
+        "accounts": [
+          {
+            "name": "Plan Plus",
+            "devices": 1,
+            "details": null,
+            "price": 50.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Star 3 Meses",
+        "accounts": [
+          {
+            "name": "Plan Plus",
+            "devices": 1,
+            "details": null,
+            "price": 120.00,
+            "available": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Crunchyroll",
+    "categories": [
+      {
+        "name": "Crunchyroll 1 Mes",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": 1,
+            "details": null,
+            "price": 50.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Crunchyroll 3 Meses",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": 1,
+            "details": null,
+            "price": 100.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Crunchyroll 12 Meses",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": 1,
+            "details": null,
+            "price": 300.00,
+            "available": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Rakuten Viki",
+    "categories": [
+      {
+        "name": "Rakuten Viki 1 Mes",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": 1,
+            "details": null,
+            "price": 55.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Rakuten Viki 3 Meses",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": 1,
+            "details": null,
+            "price": 150.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Rakuten Viki 6 Meses",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": 1,
+            "details": null,
+            "prrice": 270.00,
+            "available": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Spotify",
+    "categories": [
+      {
+        "name": "Spotify Premium 1 Mes",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": 1,
+            "details": "Cuenta nueva.",
+            "price": 60.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Spotify Premiumn 2 Meses",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": 1,
+            "details": "Cuenta nueva.",
+            "price": 100.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Spotify Premium 3 Meses",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": 1,
+            "details": "Cuenta nueva.",
+            "price": 150.00,
+            "available": true
+          },
+          {
+            "name": "Plan Premium",
+            "devices": 1,
+            "details": "Se le puede colocar en su cuenta personal.",
+            "price": 175.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Spotify Premium 6 Meses",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": 1,
+            "details": "Cuenta Nueva.",
+            "price": 250.00,
+            "available": true
+          },
+          {
+            "name": "Plan Premium",
+            "devices": 1,
+            "details": "Se le puede colocar en su cuenta personal.",
+            "price": 275.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Spotify Premium 12 Meses",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": 1,
+            "details": "Cuenta Nueva.",
+            "price": 450.00,
+            "available": true
+          },
+          {
+            "name": "Plan Premium",
+            "devices": 1,
+            "details": "Se le puede colocar en su cuenta personal.",
+            "price": 475.00,
+            "available": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Youtube Premium",
+    "categories": [
+      {
+        "name": "Youtube Premium + Music 1 Mes",
+        "accounts": [
+          {
+            "name": "Plan Premium + Youtube Music",
+            "devices": 1,
+            "details": null,
+            "price": 60.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Youtube Premium + Music 2 Meses",
+        "accounts": [
+          {
+            "name": "Plan Premium + Youtube Music",
+            "devices": 1,
+            "details": null,
+            "price": 90.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Youtube Premium + Music 4 Meses",
+        "accounts": [
+          {
+            "name": "Plan Premium + Youtube music",
+            "devices": 1,
+            "details": null,
+            "price": 150.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Youtube Premium + Music 6 Meses",
+        "accounts": [
+          {
+            "name": "Plan Premium + Youtube Music",
+            "devices": 1,
+            "details": null,
+            "price": 250.00,
+            "available": true
+          },
+          {
+            "name": "Plan Premium + Youtube Music",
+            "devices": 1,
+            "details": "Se le puede colocar en su cuenta personal.",
+            "price": 285.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Youtube Premium + Music 12 Meses",
+        "accounts": [
+          {
+            "name": "Plan Premium + Youtube Music",
+            "devices": 1,
+            "details": null,
+            "price": 425.00,
+            "available": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Apple TV / Apple Music",
+    "categories": [
+      {
+        "name": "Apple TV 1 Mes",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": 1,
+            "details": null,
+            "price": 55.00,
+            "available": false
+          }
+        ]
+      },
+      {
+        "name": "Apple TV 3 Meses",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": 3,
+            "details": "Cuenta completa.",
+            "price": 130.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Apple Music 1 Mes",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": 1,
+            "details": null,
+            "price": 60.00,
+            "available": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Canva",
+    "categories": [
+      {
+        "name": "Canva Pro 1 Mes",
+        "accounts": [
+          {
+            "name": "Plan Pro",
+            "devices": 1,
+            "details": null,
+            "price": 50.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Canva Pro (para equipos) 1 Mes",
+        "accounts": [
+          {
+            "name": "Plan Pro para equipos",
+            "devices": 5,
+            "details": "Puede invitar hasta 5 personas máximo a su equipo.",
+            "price": 100.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Canva Pro 6 Meses",
+        "accounts": [
+          {
+            "name": "Plan Pro",
+            "devices": 1,
+            "details": null,
+            "price": 175.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Canva Pro 12 Meses",
+        "accounts": [
+          {
+            "name": "Plan Pro",
+            "devices": 1,
+            "details": null,
+            "price": 285.00,
+            "available": true
+          },
+          {
+            "name": "Plan Pro",
+            "devices": 1,
+            "details": "Se le puede colocar en su cuenta personal.",
+            "price": 300.00,
+            "available": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Office 365",
+    "categories": [
+      {
+        "name": "Office 365 1 Mes",
+        "accounts": [
+          {
+            "name": "Office 365",
+            "devices": 5,
+            "details": "Renovable si usted continúa pagando.",
+            "price": 75.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Office 365 3 Meses",
+        "accounts": [
+          {
+            "name": "Office 365",
+            "devices": 5,
+            "details": "Renovable si usted continúa pagando.",
+            "price": 150.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Office 365 6 Meses",
+        "accounts": [
+          {
+            "name": "Office 365 (3/6 Meses)",
+            "devices": 5,
+            "details": "Puede obtener una cuenta de 180 días de duración a 365 (aleatorio).",
+            "price": 175.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Office 365 12 Meses",
+        "accounts": [
+          {
+            "name": "Office 365",
+            "devices": 5,
+            "details": null,
+            "price": 425.00,
+            "available": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Adobe Creative Cloud",
+    "description": "Adobe Creative Cloud con todas las aplicaciones para cualquier trabajo creativo, desde fotografía y diseño gráfico, hasta video, interfaces de usuario y experiencias de cliente (UI/UX), redes sociales, etc.\nIncluye:\nPhotoshop, Illustrator, Adobe Premiere Pro, Acrobat Pro, InDesign, After Effects, Lightroom, Adobe XD, Animate, Lightroom Classic, Dreamweaver, Audition, InCopy, Character Animator, Capture, Adobe Fresco, Bridge, Adobe Express, Photoshop Express, Media Encoder, Aero, Adobe Scan, Fill & Sign, Acrobat Reader y Adobe Firefly.",
+    "categories": [
+      {
+        "name": "Adobe Creative Cloud 28 días",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": null,
+            "details": null,
+            "price": 325.00,
+            "available": false
+          }
+        ]
+      },
+      {
+        "name": "Adobe Creative Cloud 90 días (3 meses)",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": null,
+            "details": null,
+            "price": 700.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Adobe Creative Cloud 180 días (6 meses)",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": null,
+            "details": null,
+            "price": 1200.00,
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Adobe Creative Cloud 365 días (12 meses)",
+        "accounts": [
+          {
+            "name": "Plan Premium",
+            "devices": null,
+            "details": null,
+            "price": 2000.00,
+            "available": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "AutoDesk",
+    "categories": [
+      {
+        "name": "AutoDesk 12 Meses",
+        "accounts": [
+          {
+            "name": "Plan Estudiante",
+            "devices": 1,
+            "details": "Contiene:\nAutoCAD, Tinkercad, Fusion 360, Revit, Inventor, Maya, 3ds Max, Advence Steel, Alias Auto Studio, Arnold, CFD Ultimate, Civil 3D, Fabrication CADmep, Fabrication CAMduct, Fabrication ESTmep, Factory Design Utilities, FeatureCAM, Flame, Forma, FormIT, HMSWorks Ultimate, InfraWorks, Moldflow Adviser, MotionBuilder, Mudbox, Navisworks Manager, Netfabb, Point Layout, PowerInspect, PowerShape, Recap, Robot Structural Analysis, VRED, Vehicle Tracking, Structural Bridge Design",
+            "price": 475.00,
+            "available": true
+          }
+        ]
+      }
+    ]
+  }
+]

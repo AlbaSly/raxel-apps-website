@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::before, *::after {
+  transition: all .1s ease-in, color .015s ease-in;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+  font-family: "Lato", sans-serif;
+}
+
+#root {
+  position: relative;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.info-wrapper {
+  height: 600px;
+}
+
+.boton-catalogo {
+  background-color: rgba(0, 0, 0, .5);
+}
