@@ -26,7 +26,7 @@ function _SectionContainer({children}: React.PropsWithChildren<{}>) {
 
 function _SectionTitle({title}: React.PropsWithChildren<{title: string}>) {
   return (
-    <h3 className='text-2xl my-4 text-white font-semibold text-center'>{title}</h3>
+    <h3 className='text-4xl underline underline-offset-2 my-6 text-white font-semibold text-center'>{title}</h3>
   )
 }
 
