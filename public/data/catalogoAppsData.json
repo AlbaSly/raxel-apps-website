@@ -316,6 +316,36 @@
   },
   {
     "id": 7,
+    "name": "Paramount +",
+    "categories": [
+      {
+        "name": "Paramount 1 Mes",
+        "accounts": [
+          {
+            "name": "Plan Plus",
+            "devices": 1,
+            "details": null,
+            "price": 40.00,
+            "available": false
+          }
+        ]
+      },
+      {
+        "name": "Paramount 3 Meses",
+        "accounts": [
+          {
+            "name": "Plan Plus",
+            "devices": 1,
+            "details": null,
+            "price": 100.00,
+            "available": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
     "name": "Crunchyroll",
     "categories": [
       {
@@ -357,7 +387,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Rakuten Viki",
     "categories": [
       {
@@ -399,7 +429,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "Spotify",
     "categories": [
       {
@@ -486,7 +516,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "Youtube Premium",
     "categories": [
       {
@@ -559,7 +589,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "Apple TV / Apple Music",
     "categories": [
       {
@@ -601,7 +631,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "Canva",
     "categories": [
       {
@@ -662,7 +692,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "name": "Office 365",
     "categories": [
       {
@@ -716,7 +746,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "name": "Adobe Creative Cloud",
     "description": "Adobe Creative Cloud con todas las aplicaciones para cualquier trabajo creativo, desde fotografía y diseño gráfico, hasta video, interfaces de usuario y experiencias de cliente (UI/UX), redes sociales, etc.\nIncluye:\nPhotoshop, Illustrator, Adobe Premiere Pro, Acrobat Pro, InDesign, After Effects, Lightroom, Adobe XD, Animate, Lightroom Classic, Dreamweaver, Audition, InCopy, Character Animator, Capture, Adobe Fresco, Bridge, Adobe Express, Photoshop Express, Media Encoder, Aero, Adobe Scan, Fill & Sign, Acrobat Reader y Adobe Firefly.",
     "categories": [
@@ -771,7 +801,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "name": "AutoDesk",
     "categories": [
       {

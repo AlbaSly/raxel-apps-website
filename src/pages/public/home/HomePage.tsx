@@ -17,14 +17,14 @@ const HomePage = () => {
         sectionTitle="Consigue apps de plataformas de Streaming, Música y otros a un precio económico." 
         sectionTitleHighlightableWord="económico"
         sectionTitleDescription="No sacrifiques tu bolsillo."
-        img="src/assets/img/main.png"
+        img="/img/main.png"
         imgAlt="Netflix en laptop"
       />
 
       <SectionWrapper 
         sectionTitle="Con las apps más populares del momento y muchas más."
         sectionTitleDescription="Contamos con un flexible y organizado catálogo con los mejores planes."
-        img="src/assets/img/plataformas.jpeg"
+        img="/img/plataformas.jpeg"
         imgAlt="Plataformas de Streaming"
         rowReverse={true}
         className="bg-gradient-to-l from-purple-500 to-purple-800"
@@ -33,7 +33,7 @@ const HomePage = () => {
       <SectionWrapper 
         sectionTitle="Tus plataformas favoritas para escuchar música a excelentes precios."
         sectionTitleDescription="¿Qué deseas escuchar?"
-        img="src/assets/img/musica.png"
+        img="/img/musica.png"
         imgAlt="Plataformas de música"
         className="bg-gradient-to-r from-amber-500 to-orange-800"
       />

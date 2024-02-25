@@ -20,7 +20,7 @@ export const CatalogStateProvider: React.FC<React.PropsWithChildren> = ({childre
 
   useEffect(() => {
     const loadCatalog = () => 
-    fetch('src/data/catalogoApps.data.json')
+    fetch('/data/catalogoAppsData.json')
       .then(res => res.json())
       .then((data: IAppCatalog[]) => {
         setCatalogList(data);

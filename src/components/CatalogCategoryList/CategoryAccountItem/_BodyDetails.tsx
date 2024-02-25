@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import { IAppCatalogAccount } from '../../../interfaces';
 
@@ -28,10 +27,10 @@ function _Details({account: { details }}: {account: IAppCatalogAccount}) {
   )
 }
 
-function _GenericPurchaseButton({account: { available }}: {account: IAppCatalogAccount}) {
-  if (!available) return <></>
+// function _GenericPurchaseButton({account: { available }}: {account: IAppCatalogAccount}) {
+//   if (!available) return <></>
 
-  return <Link to={'/contacto'} className='absolute bottom-0 py-4 left-0 right-0 block w-full rounded-b-md bg-violet-500 hover:bg-gray-700 text-center text-xl text-white font-bold p-2 rounded-sm shadow-md'>Click para comprar</Link>
-}
+//   return <Link to={'/contacto'} className='absolute bottom-0 py-4 left-0 right-0 block w-full rounded-b-md bg-violet-500 hover:bg-gray-700 text-center text-xl text-white font-bold p-2 rounded-sm shadow-md'>Click para comprar</Link>
+// }
 
 export default _BodyDetails

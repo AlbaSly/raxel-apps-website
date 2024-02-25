@@ -20,7 +20,6 @@ const SectionWrapper: React.FC<SectionWrapperProps> = (props): JSX.Element => {
     
     className,
     children,
-    ...moreProps
   } = props;
 
   const regex = new RegExp(`(${sectionTitleHighlightableWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
