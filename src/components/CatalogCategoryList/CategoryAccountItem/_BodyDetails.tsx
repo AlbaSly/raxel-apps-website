@@ -2,8 +2,16 @@ import React from 'react';
 
 import { IAppCatalogAccount } from '../../../interfaces';
 
+/**
+ * Componete que renderiza el cuerpo del componente CategoryAccountItem
+ * @param param0 recibe un parámetro de tipo IAppCatalogAccount para su deestructuración durante el pase de argumentos.
+ * @returns React Component (JSX)
+ */
 const _BodyDetails: React.FC<{account: IAppCatalogAccount}> = ({account}) => {
   return (
+    /**
+     * Contenedor
+     */
     <div className='p-4'>
       <_Details account={account}/>
 
@@ -12,10 +20,13 @@ const _BodyDetails: React.FC<{account: IAppCatalogAccount}> = ({account}) => {
   )
 }
 
+/**
+ * Componente hijo de _BodyDetails que renderiza los detalles dado un objeto de tipo IAppCatalogAccount
+ * @param param0 substracción de propiedades del objeto account. 
+ * @returns React Component (JSX)
+ */
 function _Details({account: { details }}: {account: IAppCatalogAccount}) {
-  if (!details) return (
-    <p className='text-center text-gray-500 font-medium'>(Sin detalles)</p>
-  );
+  if (!details) return ('');
 
   return (
     <div className='text-gray-600'>

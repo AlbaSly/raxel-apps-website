@@ -98,8 +98,8 @@
           {
             "name": "Plan Premium",
             "devices": 1,
-            "details": null,
-            "price": 40.00,
+            "details": "Plan Premium para 1 mes.",
+            "price": 45.00,
             "available": true
           }
         ]
@@ -110,14 +110,14 @@
           {
             "name": "Plan Premium",
             "devices": 1,
-            "details": null,
+            "details": "Plan Premium para 3 meses.",
             "price": 90.00,
             "available": true
           },
           {
             "name": "Plan Premium Cuenta Completa",
             "devices": 6,
-            "details": "Se pueden tener hasta 6 perfiles.",
+            "details": "Cuenta completa para 3 meses. Se pueden crear hasta 6 perfiles.",
             "price": 180,
             "available": true
           }
@@ -129,14 +129,14 @@
           {
             "name": "Plan Premium",
             "devices": 1,
-            "details": null,
-            "price": 160.00,
+            "details": "Plan Premium para 6 meses",
+            "price": 195.00,
             "available": true
           },
           {
             "name": "Plan Premium Cuenta Completa",
             "devices": 6,
-            "details": "Se pueden tener hasta 6 perfiles.",
+            "details": "Cuenta completa para 6 meses. Se pueden tener hasta 6 perfiles.",
             "price": 295.00,
             "available": true
           }
@@ -146,7 +146,7 @@
   },
   {
     "id": 3,
-    "name": "Disney +",
+    "name": "Disney+",
     "categories": [
       {
         "name": "Disney 1 Mes",
@@ -154,14 +154,14 @@
           {
             "name": "Plan Plus",
             "devices": 1,
-            "details": null,
+            "details": "Plan Disney+ por 1 mes.",
             "price": 50.00,
             "available": true
           },
           {
             "name": "Plan Plus: Disney + Star",
             "devices": 1,
-            "details": null,
+            "details": "Disney+ y Star+ a precio único, para 1 mes.",
             "price": 65.00,
             "available": true
           }
@@ -173,7 +173,7 @@
           {
             "name": "Plan Plus: Disney + Star",
             "devices": 1,
-            "details": null,
+            "details": "Disney+ y Star+ a precio único, para 2 meses.",
             "price": 80.00,
             "available": true
           }
@@ -185,14 +185,14 @@
           {
             "name": "Plan Plus",
             "devices": 1,
-            "details": null,
+            "details": "Disney+ ",
             "price": 180.00,
             "available": true
           },
           {
             "name": "Plan Plus: Disney + Star",
             "devices": 1,
-            "details": null,
+            "details": "Disney+ y Star+ a precio especial, para 6 meses.",
             "price": 200.00,
             "available": true
           }
@@ -210,7 +210,7 @@
           {
             "name": "Plan Premium",
             "devices": 1,
-            "details": null,
+            "details": "Plan Premium para 1 mes.",
             "price": 50.00,
             "available": true
           }
@@ -222,7 +222,7 @@
           {
             "name": "Plan Premium",
             "devices": 1,
-            "details": null,
+            "details": "Plan Premium para 3 meses.",
             "price": 125.00,
             "available": true
           }
@@ -234,7 +234,7 @@
           {
             "name": "Plan Premium",
             "devices": 1,
-            "details": null,
+            "details": "Plan Premium para 6 meses",
             "price": 200.00,
             "available": true
           }
@@ -250,9 +250,9 @@
         "name": "Vix 1 Mes",
         "accounts": [
           {
-            "name": "Plan Plus",
+            "name": "Plan Premium",
             "devices": 1,
-            "details": null,
+            "details": "Vix Premium por 1 mes.",
             "price": 45.00,
             "available": true
           }
@@ -262,9 +262,9 @@
         "name": "Vix 3 Meses",
         "accounts": [
           {
-            "name": "Plan Plus",
+            "name": "Plan Premium",
             "devices": 1,
-            "details": null,
+            "details": "Vix Premium por 3 meses.",
             "price": 100.00,
             "available": true
           }
@@ -274,9 +274,9 @@
         "name": "Vix 6 Meses",
         "accounts": [
           {
-            "name": "Plan Plus",
+            "name": "Plan Premium",
             "devices": 1,
-            "details": null,
+            "details": "Vix Premium por 6 meses.",
             "price": 200.00,
             "available": true
           }
@@ -286,7 +286,7 @@
   },
   {
     "id": 6,
-    "name": "Star +",
+    "name": "Star+",
     "categories": [
       {
         "name": "Star 1 Mes",
@@ -294,7 +294,7 @@
           {
             "name": "Plan Plus",
             "devices": 1,
-            "details": null,
+            "details": "Plan Plus por 1 mes.",
             "price": 50.00,
             "available": true
           }
@@ -306,7 +306,7 @@
           {
             "name": "Plan Plus",
             "devices": 1,
-            "details": null,
+            "details": "Plan Plus por 3 meses.",
             "price": 120.00,
             "available": true
           }
@@ -316,13 +316,13 @@
   },
   {
     "id": 7,
-    "name": "Paramount +",
+    "name": "Paramount+",
     "categories": [
       {
         "name": "Paramount 1 Mes",
         "accounts": [
           {
-            "name": "Plan Plus",
+            "name": "Plan Plus por 1 Mes.",
             "devices": 1,
             "details": null,
             "price": 40.00,
@@ -334,7 +334,7 @@
         "name": "Paramount 3 Meses",
         "accounts": [
           {
-            "name": "Plan Plus",
+            "name": "Plan Plus por 1 Mes.",
             "devices": 1,
             "details": null,
             "price": 100.00,

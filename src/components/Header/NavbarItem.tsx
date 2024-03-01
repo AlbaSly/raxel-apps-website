@@ -1,9 +1,16 @@
 import { NavLink } from 'react-router-dom';
 import { INavbarMenuItem } from '../../constants/navbarMenuItems'
 
+/**
+ * Props del componente NavbarItem
+ */
 type Props = {
   item: INavbarMenuItem;
 }
+/**
+ * Componente que renderiza cada Item que representa a su vez cada hijo de la barra de navegación (Navbar Component)
+ * @returns React Component (JSX)
+ */
 const NavbarItem = ({item: { label, path, icon }}: Props) => {
   return (
     <NavLink 

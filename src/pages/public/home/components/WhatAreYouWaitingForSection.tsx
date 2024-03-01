@@ -10,7 +10,7 @@ const WhatAreYouWaitingSection = () => {
             Comienza a comprar tus cuentas a buen precio.
           </p>
 
-          <FcFlashOn size={96} className="mx-auto my-8" />
+          <FcFlashOn size={96} className="mx-auto my-8 drop-shadow-lg" />
         </div>
       </section>
     </div>

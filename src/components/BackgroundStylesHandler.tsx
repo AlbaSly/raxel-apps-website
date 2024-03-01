@@ -1,11 +1,14 @@
 import React, { useEffect } from "react";
-import { ReactComponent } from "../interfaces"
 import { useLocation } from "react-router-dom";
+
 import RouteConstants from "../router/routeConstants";
 
-type Props = ReactComponent & {};
 
-const BackgroundStylesHandler: React.FC<Props> = ({children}) => {
+/**
+ * Componente que renderiza cada background, el cuál es dinámico dependiendo de la ruta en la que se encuentre.
+ * @returns React Component (JSX)
+ */
+const BackgroundStylesHandler = ({children}: React.PropsWithChildren<{}>) => {
 
   const defaultBodyClasses = 'bg-gradient-to-r from-blue-500 to-blue-900';
   const location = useLocation();
@@ -16,7 +19,6 @@ const BackgroundStylesHandler: React.FC<Props> = ({children}) => {
     switch (location.pathname) {
       case RouteConstants.public.info:
         $body.className = 'bg-gradient-to-r from-gray-500 to-gray-800';
-        // $body.className = 'bg-gradient-to-r from-gray-700 to-gray-700';
         break;
       case RouteConstants.public.catalogo:
         $body.className = 'bg-gradient-to-r from-rose-500 to-rose-900';
@@ -30,7 +32,9 @@ const BackgroundStylesHandler: React.FC<Props> = ({children}) => {
         $body.className = defaultBodyClasses;
         break;
     }
+    
     scrollTo({top: 0});
+
     return () => {
       $body.className = defaultBodyClasses;
     }

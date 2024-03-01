@@ -32,7 +32,7 @@ function _SectionTitle({title}: React.PropsWithChildren<{title: string}>) {
 
 function _ItemsContainer({children}: React.PropsWithChildren<{}>) {
   return (
-    <div className='w-11/12 mx-auto grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+    <div className='w-11/12 mx-auto grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-start'>
       {children}
     </div>
   )

@@ -2,6 +2,11 @@ import { useEffect, useState } from "react"
 import NavbarMenuItems, { INavbarMenuItem } from "../../constants/navbarMenuItems"
 import NavbarItem from "./NavbarItem";
 
+
+/**
+ * Barra de navegación de la aplicación
+ * @returns React Component (JSX)
+ */
 const Navbar = () => {
 
   const [ items, setItems ] = useState<Array<INavbarMenuItem>>([]);

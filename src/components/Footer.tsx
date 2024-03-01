@@ -1,5 +1,10 @@
 import { useState } from "react"
 
+
+/**
+ * Componente que renderiza el pie de página de la aplicación
+ * @returns React Component (JSX)
+ */
 const Footer = () => {
   
   const [ date ] = useState<Date>(new Date());

@@ -5,6 +5,7 @@
 const PageLoader = () => {
   return (
     <div className="h-screen flex flex-col justify-center items-center animate__animated animate__fadeIn animate__faster">
+      {/* Spinner de Carga */}
       <div role="status">
         <svg
           aria-hidden="true"
