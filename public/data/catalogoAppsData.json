@@ -326,7 +326,7 @@
             "devices": 1,
             "details": null,
             "price": 40.00,
-            "available": false
+            "available": true
           }
         ]
       },
