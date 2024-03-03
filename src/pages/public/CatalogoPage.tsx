@@ -16,7 +16,7 @@ const CatalogoPage = () => {
 
   return (
     <PageWrapper>
-      <PageTitle title="Catálogo de Apps" additionalText="Última Actualización: 23 de febrero de 2024, 11:00 hrs."/>
+      <PageTitle title="Catálogo de Apps" additionalText="Última Actualización: 2 de marzo de 2024, 23:00 hrs."/>
       
       <CatalogPlatformSelector />
 
