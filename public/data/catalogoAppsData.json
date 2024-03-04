@@ -9,14 +9,14 @@
           {
             "name": "Plan Premium HD",
             "devices": 1,
-            "details": "Idioma del perfil aleatorio (únicamente modificable dentro de la película o serie!).",
+            "details": "Cuenta de Calidad Regular. Idioma del perfil aleatorio (únicamente modificable dentro de la película o serie!). Ideal para pantallas pequeñas (Teléfonos, Tablets pequeñas).",
             "price": 50.00,
             "available": true
           },
           {
             "name": "Plan Premium UHD 4K",
             "devices": 1,
-            "details": "Idioma del perfil en español. Perfecto para pantallas grandes.",
+            "details": "Cuenta de Alta Calidad. Idioma del perfil configurado en español. Perfecto para pantallas grandes (Smart TV's, Computadoras, etc.).",
             "price": 70.00,
             "available": true
           },
@@ -24,7 +24,7 @@
             "name": "Plan Premium UHD 4K",
             "devices": 4,
             "details": "Idiomas de los perfiles aleatorios (únicamente modificables dentro de la película o serie!).",
-            "price": 155.00,
+            "price": 160.00,
             "available": true
           }
         ]
@@ -35,14 +35,14 @@
           {
             "name": "Plan Premium HD",
             "devices": 1,
-            "details": "Idioma del perfil aleatorio (únicamente modificable dentro de la película o serie!).",
+            "details": "Cuenta de Calidad Regular. Idioma del perfil aleatorio (únicamente modificable dentro de la película o serie!). Ideal para pantallas pequeñas (Teléfonos, Tablets pequeñas).",
             "price": 125.00,
             "available": true
           },
           {
             "name": "Plan Premium UHD 4K",
             "devices": 1,
-            "details": "Idioma del perfil en español. Perfecto para pantallas grandes.",
+            "details": "Cuenta de Alta Calidad. Idioma del perfil configurado en español. Perfecto para pantallas grandes (Smart TV's, Computadoras, etc.).",
             "price": 165.00,
             "available": true
           },
