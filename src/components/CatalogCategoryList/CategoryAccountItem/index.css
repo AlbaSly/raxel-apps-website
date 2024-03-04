@@ -19,3 +19,7 @@
   border-radius: 10px;
   border: 3px solid #ffffff;
 }
+
+.custom-card-container {
+  height: 24rem;
+}

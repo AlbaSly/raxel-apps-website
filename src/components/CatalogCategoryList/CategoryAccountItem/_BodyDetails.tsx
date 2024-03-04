@@ -31,7 +31,7 @@ function _Details({account: { details }}: {account: IAppCatalogAccount}) {
   return (
     <div className='text-gray-600'>
       <p className='font-semibold'>Detalles:</p>
-      <div className='details-scroll h-16 overflow-y-scroll'>
+      <div className='details-scroll h-24 overflow-y-scroll'>
         <p>{details}</p>
       </div>
     </div>

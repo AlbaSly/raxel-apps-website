@@ -27,7 +27,7 @@ const CategoryAccountItem: React.FC<{account: IAppCatalogAccount}> = ({account})
  */
 function _Container({children, account}: React.PropsWithChildren<{account: IAppCatalogAccount}>) {
   return (
-    <div className={['catalogo-card bg-gray-200 relative rounded-lg shadow-md hover:shadow-xl hover:scale-105', account.details ? 'h-80' : ''].join(' ')}>
+    <div className={['catalogo-card bg-gray-200 relative rounded-lg shadow-md hover:shadow-xl hover:scale-105', account.details ? 'custom-card-container' : ''].join(' ')}>
       {children}
     </div>
   )
