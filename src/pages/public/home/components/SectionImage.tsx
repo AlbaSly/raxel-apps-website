@@ -11,16 +11,16 @@ export const SectionImage: React.FC<SectionImageProps> = (props) => {
     const { src, alt } = props;
 
     return (
-        <>
-            {
-                isloading &&
-                <div className={'w-full md:w-1/2'}>
-                    <Spinner/>
-                </div>
-            }
-            <img loading='lazy' onLoad={() => {setIsLoading(false)}} src={src} alt={alt} className={[
-                'drop-shadow-xl w-full md:w-1/2',
-            ].join(' ')}/>
-        </>
+    <div className={'w-full md:w-1/2 relative'}>
+        {
+            isloading &&
+            <div className={'absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center z-50'}>
+                <Spinner/>
+            </div>
+        }
+        <img loading='lazy' onLoad={() => {setIsLoading(false)}} src={src} alt={alt} className={[
+            'w-full drop-shadow-xl',
+        ].join(' ')}/>
+    </div>
     )
 };

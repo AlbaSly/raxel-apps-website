@@ -43,7 +43,7 @@ const SectionWrapper: React.FC<SectionWrapperProps> = (props): JSX.Element => {
       }>
         <div className={
           [
-            'text-3xl md:text-4xl font-semibold text-white text-center md:text-left animate__animated opacity-0',
+            'text-3xl md:text-4xl w-full md:w-1/2 font-semibold text-white text-center md:text-left animate__animated opacity-0',
             'animate__fadeIn animate__faster'
           ].join(' ')
         }>
