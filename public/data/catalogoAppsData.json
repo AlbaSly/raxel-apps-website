@@ -7,24 +7,24 @@
         "name": "Netflix 1 Mes",
         "accounts": [
           {
-            "name": "Plan Premium HD",
+            "name": "Plan ",
             "devices": 1,
-            "details": "Cuenta de Calidad Regular. Idioma del perfil aleatorio (únicamente modificable dentro de la película o serie!). Ideal para pantallas pequeñas (Teléfonos, Tablets pequeñas).",
-            "price": 50.00,
+            "details": "Cuenta de Calidad Regular.",
+            "price": 55.00,
             "available": true
           },
           {
             "name": "Plan Premium UHD 4K",
             "devices": 1,
-            "details": "Cuenta de Alta Calidad. Idioma del perfil configurado en español. Perfecto para pantallas grandes (Smart TV's, Computadoras, etc.).",
+            "details": "Cuenta de Alta Calidad. Sin interrupciones y completamente segura.",
             "price": 70.00,
             "available": true
           },
           {
             "name": "Plan Premium UHD 4K",
             "devices": 4,
-            "details": "Idiomas de los perfiles aleatorios (únicamente modificables dentro de la película o serie!).",
-            "price": 160.00,
+            "details": "Incluye 4 perfiles a un precio único.",
+            "price": 165.00,
             "available": true
           }
         ]
@@ -35,22 +35,22 @@
           {
             "name": "Plan Premium HD",
             "devices": 1,
-            "details": "Cuenta de Calidad Regular. Idioma del perfil aleatorio (únicamente modificable dentro de la película o serie!). Ideal para pantallas pequeñas (Teléfonos, Tablets pequeñas).",
-            "price": 125.00,
+            "details": "Cuenta de Calidad Regular.",
+            "price": 135.00,
             "available": true
           },
           {
             "name": "Plan Premium UHD 4K",
             "devices": 1,
-            "details": "Cuenta de Alta Calidad. Idioma del perfil configurado en español. Perfecto para pantallas grandes (Smart TV's, Computadoras, etc.).",
+            "details": "Cuenta de Alta Calidad. Sin interrupciones y completamente segura.",
             "price": 165.00,
             "available": true
           },
           {
             "name": "Plan Premium UHD 4K",
             "devices": 4,
-            "details": "Idiomas de los perfiles aleatorios (únicamente modificables dentro de la película o serie!).",
-            "price": 220.00,
+            "details": "Incluye 4 perfiles a un precio único.",
+            "price": 245.00,
             "available": true
           }
         ]
@@ -61,15 +61,15 @@
           {
             "name": "Plan Premium HD",
             "devices": 1,
-            "details": "Idioma del perfil aleatorio (únicamente modificable dentro de la película o serie!).",
-            "price": 225.00,
+            "details": "Cuenta de Calidad Regular.",
+            "price": 255.00,
             "available": true
           },
           {
             "name": "Plan Premium UHD 4K",
             "devices": 1,
-            "details": "Idioma del perfil en español. Perfecto para pantallas grandes.",
-            "price": 285.00,
+            "details": "Cuenta de Alta Calidad. Sin interrupciones y completamente segura.",
+            "price": 335.00,
             "available": true
           }
         ]
@@ -80,8 +80,8 @@
           {
             "name": "Plan Premium UHD 4K",
             "devices": 1,
-            "details": "Idioma del perfil en español. Perfecto para pantallas grandes.",
-            "price": 495.00,
+            "details": "Cuenta de Alta Calidad. Sin interrupciones y completamente segura.",
+            "price": 515.00,
             "available": true
           }
         ]
@@ -99,7 +99,14 @@
             "name": "Plan Premium",
             "devices": 1,
             "details": "Plan Premium para 1 mes.",
-            "price": 45.00,
+            "price": 40.00,
+            "available": true
+          },
+          {
+            "name": "Premium Cuenta Completa",
+            "devices": 5,
+            "details": "Cuenta completa y nueva por 1 mes.",
+            "price": 75,
             "available": true
           }
         ]
@@ -111,14 +118,14 @@
             "name": "Plan Premium",
             "devices": 1,
             "details": "Plan Premium para 3 meses.",
-            "price": 90.00,
+            "price": 95.00,
             "available": true
           },
           {
             "name": "Plan Premium Cuenta Completa",
-            "devices": 6,
-            "details": "Cuenta completa para 3 meses. Se pueden crear hasta 6 perfiles.",
-            "price": 180,
+            "devices": 5,
+            "details": "Cuenta completa y nueva para 3 meses.",
+            "price": 185,
             "available": true
           }
         ]
@@ -205,13 +212,20 @@
     "name": "HBO Max",
     "categories": [
       {
-        "name": "HBO Max 1 Mes",
+        "name": "Max 1 Mes",
         "accounts": [
           {
             "name": "Plan Premium",
             "devices": 1,
             "details": "Plan Premium para 1 mes.",
             "price": 50.00,
+            "available": true
+          },
+          {
+            "name": "Plan Platino",
+            "devices": 1,
+            "details": "El mejor plan de Max (Platino) por 1 mes.",
+            "price": 75.00,
             "available": true
           }
         ]
@@ -225,6 +239,13 @@
             "details": "Plan Premium para 3 meses.",
             "price": 125.00,
             "available": true
+          },
+          {
+            "name": "Plan Platino",
+            "devices": 1,
+            "details": "El mejor plan de Max (Platino) por 1 mes.",
+            "price": 140.00,
+            "available": true
           }
         ]
       },
@@ -236,6 +257,13 @@
             "devices": 1,
             "details": "Plan Premium para 6 meses",
             "price": 200.00,
+            "available": true
+          },
+          {
+            "name": "Plan Platino",
+            "devices": 1,
+            "details": "El mejor plan de Max (Platino) por 1 mes.",
+            "price": 235.00,
             "available": true
           }
         ]
@@ -253,7 +281,7 @@
             "name": "Plan Premium",
             "devices": 1,
             "details": "Vix Premium por 1 mes.",
-            "price": 45.00,
+            "price": 50.00,
             "available": true
           }
         ]
@@ -265,7 +293,7 @@
             "name": "Plan Premium",
             "devices": 1,
             "details": "Vix Premium por 3 meses.",
-            "price": 100.00,
+            "price": 125.00,
             "available": true
           }
         ]
@@ -277,7 +305,7 @@
             "name": "Plan Premium",
             "devices": 1,
             "details": "Vix Premium por 6 meses.",
-            "price": 200.00,
+            "price": 225.00,
             "available": true
           }
         ]
@@ -295,7 +323,7 @@
             "name": "Plan Plus",
             "devices": 1,
             "details": "Plan Plus por 1 mes.",
-            "price": 50.00,
+            "price": 45.00,
             "available": true
           }
         ]
@@ -307,7 +335,7 @@
             "name": "Plan Plus",
             "devices": 1,
             "details": "Plan Plus por 3 meses.",
-            "price": 120.00,
+            "price": 100.00,
             "available": true
           }
         ]
@@ -325,7 +353,7 @@
             "name": "Plan Plus por 1 Mes.",
             "devices": 1,
             "details": null,
-            "price": 40.00,
+            "price": 50.00,
             "available": true
           }
         ]
@@ -337,7 +365,7 @@
             "name": "Plan Plus por 1 Mes.",
             "devices": 1,
             "details": null,
-            "price": 100.00,
+            "price": 125.00,
             "available": true
           }
         ]
@@ -367,7 +395,7 @@
             "name": "Plan Premium",
             "devices": 1,
             "details": null,
-            "price": 100.00,
+            "price": 125.00,
             "available": true
           }
         ]
@@ -379,7 +407,7 @@
             "name": "Plan Premium",
             "devices": 1,
             "details": null,
-            "price": 300.00,
+            "price": 415.00,
             "available": true
           }
         ]
@@ -401,30 +429,6 @@
             "available": true
           }
         ]
-      },
-      {
-        "name": "Rakuten Viki 3 Meses",
-        "accounts": [
-          {
-            "name": "Plan Premium",
-            "devices": 1,
-            "details": null,
-            "price": 150.00,
-            "available": true
-          }
-        ]
-      },
-      {
-        "name": "Rakuten Viki 6 Meses",
-        "accounts": [
-          {
-            "name": "Plan Premium",
-            "devices": 1,
-            "details": null,
-            "prrice": 270.00,
-            "available": true
-          }
-        ]
       }
     ]
   },
@@ -439,19 +443,7 @@
             "name": "Plan Premium",
             "devices": 1,
             "details": "Cuenta nueva.",
-            "price": 60.00,
-            "available": true
-          }
-        ]
-      },
-      {
-        "name": "Spotify Premiumn 2 Meses",
-        "accounts": [
-          {
-            "name": "Plan Premium",
-            "devices": 1,
-            "details": "Cuenta nueva.",
-            "price": 100.00,
+            "price": 65.00,
             "available": true
           }
         ]
@@ -463,11 +455,11 @@
             "name": "Plan Premium",
             "devices": 1,
             "details": "Cuenta nueva.",
-            "price": 150.00,
+            "price": 135.00,
             "available": true
           },
           {
-            "name": "Plan Premium",
+            "name": "Plan Premium con su cuenta",
             "devices": 1,
             "details": "Se le puede colocar en su cuenta personal.",
             "price": 175.00,

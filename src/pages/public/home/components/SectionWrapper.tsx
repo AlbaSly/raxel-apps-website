@@ -1,4 +1,5 @@
 import { ReactComponent } from '../../../../interfaces'
+import {SectionImage} from "./SectionImage.tsx";
 
 type SectionWrapperProps = ReactComponent & {
   rowReverse?: boolean;
@@ -59,10 +60,7 @@ const SectionWrapper: React.FC<SectionWrapperProps> = (props): JSX.Element => {
           {children}
         </div>
 
-        <img loading='lazy' src={img} alt={imgAlt} className={[
-          'drop-shadow-xl w-full md:w-1/2 animate__animated opacity-0',
-          'animate__fadeIn animate__faster'
-        ].join(' ')}/>
+        <SectionImage src={img} alt={imgAlt}/>
       </section>
     </div>
   )
