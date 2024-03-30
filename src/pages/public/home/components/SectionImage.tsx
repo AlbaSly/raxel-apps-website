@@ -19,7 +19,9 @@ export const SectionImage: React.FC<SectionImageProps> = (props) => {
             </div>
         }
         <img loading='lazy' onLoad={() => {setIsLoading(false)}} src={src} alt={alt} className={[
+            'opacity-0 animate__animated',
             'w-full drop-shadow-xl',
+            !isloading ? 'animate__fadeIn animate__faster' : ''
         ].join(' ')}/>
     </div>
     )
